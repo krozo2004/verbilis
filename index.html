@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!--   <title>Calm | Keep calm and poke me</title>
+  		<meta name="robots" content="index, follow">
+		<meta name="description" content="Punch me, smash me, poke me! One weird way to de-stress.">
+		<link rel="canonical" href="https://calm.ovh"> -->
+  
+<!-- Favicons -->
+<link rel="icon" href="fun/fav/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="fun/fav/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="fun/fav/favicon-96x96.png" sizes="96x96" type="image/png">
+<link rel="icon" href="fun/fav/favicon-192x192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" sizes="57x57" href="fun/fav/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="152x152" href="fun/fav/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="fun/fav/apple-touch-icon-180x180.png">
+		
+<!-- OPEN GRAPHS Meta -->
+<meta property="og:url" content="https://calm.ovh">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Keep calm and poke me.">
+<meta property="og:description" content="One weird way to de-stress.">
+<meta property="og:image" content="https://calm.ovh/fun/tw.png">
+
+<!-- TWITTER Meta -->	
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="DefonicAudio">
+<meta name="twitter:creator" content="DefonicAudio">
+<meta name="twitter:title" content="Punch me, smash me, poke me!">
+<meta name="twitter:description" content="One weird way to de-stress.">
+<meta name="twitter:image" content="https://calm.ovh/fun/tw.png">
+  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Snippet" rel="stylesheet"> 
+<link rel="stylesheet" href="fun/style.css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-17166369-38"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-17166369-38');
+</script>
+
+
+  
+</head>
+
+<body>
+
+  <audio id="strain" src="https://e8b8e3q2.ssl.hwcdn.net/sounds/fun/strain.mp3" loop></audio>
+  <audio id="sound1" src="https://e8b8e3q2.ssl.hwcdn.net/sounds/fun/track1.mp3" preload></audio>
+  <audio id="sound2" src="https://e8b8e3q2.ssl.hwcdn.net/sounds/fun/track2.mp3" preload></audio>
+  <audio id="sound3" src="https://e8b8e3q2.ssl.hwcdn.net/sounds/fun/track3.mp3" preload></audio>
+  <audio id="sound4" src="https://e8b8e3q2.ssl.hwcdn.net/sounds/fun/track4.mp3" preload></audio>
+  <audio id="sound5" src="https://e8b8e3q2.ssl.hwcdn.net/sounds/fun/track5.mp3" preload></audio>
+  <audio id="sound6" src="https://e8b8e3q2.ssl.hwcdn.net/sounds/fun/track6.mp3" preload></audio>
+  <audio id="sound7" src="https://e8b8e3q2.ssl.hwcdn.net/sounds/fun/track7.mp3" preload></audio>
+  <audio id="sound8" src="https://e8b8e3q2.ssl.hwcdn.net/sounds/fun/track8.mp3"></audio>
+  <audio id="sound9" src="https://e8b8e3q2.ssl.hwcdn.net/sounds/fun/track9.mp3"></audio>
+  
+  <canvas id="canvas"></canvas>
+  
+  <a href="https://defonic.com" class="btn"><i class="fa fa-arrow-left"></i>&nbsp; back</a>
+  <p class="foot">2020 Calm.ovh All right reserved | <a href="credits.html" target="_blank">Credits &amp; attributions</a></p>
+
+  
+  
+<!-- Share buttons by Cubecamp.ru  www.cubecamp.ru/articles/share/cubecamp.html -->
+<div id="shar" class="share-btn" data-url="https://calm.ovh" data-title="Calm.ovh" data-desc="Keep calm and poke me.">
+	<!-- <a data-id="vk"><i class="fa fa-vk fa-fw"></i></a> -->
+	<a data-id="fb"><i class="fa fa-facebook fa-fw"></i></a>
+	<a data-id="tw"><i class="fa fa-twitter fa-fw"></i></a>
+	<!-- <a data-id="in"><i class="fa fa-linkedin fa-fw"></i></a> -->	
+</div>  
+  
+  
+<!-- Thanks to Literphor for the script below https://stackoverflow.com/questions/39604400/play-a-random-sound-on-single-button -->
+<script>	
+mySounds = [ 'sound1', 'sound2', 'sound3', 'sound4', 'sound5', 'sound6', 'sound7', 'sound8', 'sound9' ]
+function randomSound() {
+    var index = Math.floor(Math.random() * 1000) % mySounds.length;
+    var id = mySounds[index];
+    var audioElement = document.getElementById(id);
+    audioElement.play();
+}
+</script>
+
+
+	<script  src="fun/index.js"></script>
+	<script type="text/javascript" src="fun/share.js"></script>
+	
+	
+	
+
+
+</body>
+</html>

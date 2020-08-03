@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-touch-callout: none;
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;    
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+  background: #FFF09B url("http://wac.4DFAC.alphacdn.net/004DFAC/calm/fun/img/keep.png") no-repeat top center;
+  font-family: 'Snippet', sans-serif;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin-top: -1.5rem;
+  font-size: 3rem;  
+  text-align: center;
+}
+
+select {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  z-index: 100000;
+}
+
+.foot {
+position: fixed;
+text-align: left;
+left: 10px;
+bottom: 5px;
+font-size: 14px;
+color: #607764;
+text-decoration: none;
+}
+
+a {
+color: #607764;
+text-decoration: none;
+}
+
+#shar {
+position: fixed;
+font-size: 14px;
+color: #607764;
+right: 10px;
+top: 10px;
+cursor: pointer;
+z-index: 99;
+}
+
+/* SEDNA buttons by Codrops */
+
+.btn {
+  position: fixed;
+  font-size: 14px;
+  left: 20px;
+  top: 15px;
+  color: #708B75;
+  border: solid 2px #708B75;
+  border-radius: 40px;
+  padding: 6px 23px;
+  display: inline-block;
+  text-transform: none;
+  background-color: none; }
+
+.btn:hover, .btn:focus {
+  opacity: 0.7; }
+
